@@ -30,7 +30,7 @@ It is my first beginner-level hardware design project for learning digital logic
 
 ## Result
 
-The design was written in Verilog and tested using a basic testbench.
+The design was written in Verilog and tested using the ModelSIM Software.
 
 ## Future Improvement
 
