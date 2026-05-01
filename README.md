@@ -2,10 +2,14 @@
 
 ## Description
 
-This project implements basic logic gates using Verilog HDL.  
-It is my first beginner-level hardware design project for learning digital logic and FPGA development.
+This is a beginner-level digital logic design project using Verilog HDL.  
+The project implements basic logic gates and verifies their output using different input combinations.
+
+This project is part of my learning journey as a Hardware Enthusiast. I am using small Verilog projects to improve my understanding of digital logic design, FPGA development, and hardware simulation.
 
 ## Logic Gates Implemented
+
+The following logic gates are implemented in this project:
 
 - AND Gate
 - OR Gate
@@ -18,22 +22,80 @@ It is my first beginner-level hardware design project for learning digital logic
 ## Tools Used
 
 - Verilog HDL
-- Intel Quartus Prime
-- ModelSim / QuestaSim
+- ModelSim
 - GitHub
 
-## Files
+## Project Files
 
-- `basic_gates.v` - Main Verilog design file
-- `basic_gates_tb.v` - Testbench file
-- `README.md` - Project documentation
+| File Name | Description |
+|---|---|
+| `basic_gates.v` | Main Verilog design file |
+| `basic_gates_tb.v` | Testbench file for simulation |
+| `README.md` | Project documentation |
+| `logic_gates_a0_b0.png` | Output screenshot for A = 0, B = 0 |
+| `logic_gates_a0_b1.png` | Output screenshot for A = 0, B = 1 |
+| `logic_gates_a1_b0.png` | Output screenshot for A = 1, B = 0 |
+| `logic_gates_a1_b1.png` | Output screenshot for A = 1, B = 1 |
+
+## Input and Output Signals
+
+| Signal Name | Type | Description |
+|---|---|---|
+| `a` | Input | First input signal |
+| `b` | Input | Second input signal |
+| `and_out` | Output | Output of AND gate |
+| `or_out` | Output | Output of OR gate |
+| `not_out` | Output | Output of NOT gate using input A |
+| `nand_out` | Output | Output of NAND gate |
+| `nor_out` | Output | Output of NOR gate |
+| `xor_out` | Output | Output of XOR gate |
+| `xnor_out` | Output | Output of XNOR gate |
+
+## Truth Table
+
+| A | B | AND | OR | NOT A | NAND | NOR | XOR | XNOR |
+|---|---|-----|----|-------|------|-----|-----|------|
+| 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 1 |
+
+## Simulation / Logic Output Screenshots
+
+The circuit was tested for all possible input combinations of `a` and `b`.
+
+### Input: A = 0, B = 0
+
+![Logic Gates A0 B0](logic_gates_a0_b0.png)
+
+### Input: A = 0, B = 1
+
+![Logic Gates A0 B1](logic_gates_a0_b1.png)
+
+### Input: A = 1, B = 0
+
+![Logic Gates A1 B0](logic_gates_a1_b0.png)
+
+### Input: A = 1, B = 1
+
+![Logic Gates A1 B1](logic_gates_a1_b1.png)
 
 ## Result
 
-The design was written in Verilog and tested using the ModelSIM Software.
+The basic logic gates were successfully implemented using Verilog HDL.  
+The outputs were checked for all input combinations, and the results matched the expected truth table.
 
-## Future Improvement
+## Learning Outcome
 
-- Add simulation waveform screenshot
-- Implement the design on an FPGA board
-- Add timing analysis result
+From this project, I learned:
+
+- How to write a basic Verilog module
+- How to use input and output signals
+- How basic logic gates work in hardware design
+- How to create a simple testbench
+- How to document a hardware project on GitHub
+
+## Author
+
+**Nafis-13**  
+Hardware Enthusiast | FPGA & Verilog Learner | Digital Logic Design
