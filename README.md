@@ -78,25 +78,25 @@ The design was tested using all possible input combinations of `A` and `B`.
 
 ### Input Combination: A = 0, B = 0
 
-![Logic Gates A0 B0](logic_gates_a0_b0.png)
+![Logic Gates A0 B0](logic_gates_a0_b0.png.png)
 
 ---
 
 ### Input Combination: A = 0, B = 1
 
-![Logic Gates A0 B1](logic_gates_a0_b1.png)
+![Logic Gates A0 B1](logic_gates_a0_b1.png.png)
 
 ---
 
 ### Input Combination: A = 1, B = 0
 
-![Logic Gates A1 B0](logic_gates_a1_b0.png)
+![Logic Gates A1 B0](logic_gates_a1_b0.png.png)
 
 ---
 
 ### Input Combination: A = 1, B = 1
 
-![Logic Gates A1 B1](logic_gates_a1_b1.png)
+![Logic Gates A1 B1](logic_gates_a1_b1.png.png)
 
 ---
 
