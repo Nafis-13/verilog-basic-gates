@@ -1,15 +1,17 @@
 # Basic Logic Gates using Verilog
 
-## Description
+## Project Overview
 
-This is a beginner-level digital logic design project using Verilog HDL.  
-The project implements basic logic gates and verifies their output using different input combinations.
+This is a beginner-level digital logic design project using **Verilog HDL**.  
+The project implements basic logic gates and verifies their outputs using different input combinations.
 
-This project is part of my learning journey as a Hardware Enthusiast. I am using small Verilog projects to improve my understanding of digital logic design, FPGA development, and hardware simulation.
+This project is part of my learning journey as a **Hardware Enthusiast**. Through this project, I practiced basic digital logic, Verilog design, simulation, and GitHub project documentation.
+
+---
 
 ## Logic Gates Implemented
 
-The following logic gates are implemented in this project:
+The following logic gates are included in this project:
 
 - AND Gate
 - OR Gate
@@ -19,23 +21,29 @@ The following logic gates are implemented in this project:
 - XOR Gate
 - XNOR Gate
 
+---
+
 ## Tools Used
 
 - Verilog HDL
 - ModelSim
 - GitHub
 
+---
+
 ## Project Files
 
 | File Name | Description |
 |---|---|
-| `basic_gates.v` | Main Verilog design file |
-| `basic_gates_tb.v` | Testbench file for simulation |
 | `README.md` | Project documentation |
+| `basic_gates.v` | Main Verilog design file |
+| `basic_gates_tb.v` | Testbench file |
 | `logic_gates_a0_b0.png` | Output screenshot for A = 0, B = 0 |
 | `logic_gates_a0_b1.png` | Output screenshot for A = 0, B = 1 |
 | `logic_gates_a1_b0.png` | Output screenshot for A = 1, B = 0 |
 | `logic_gates_a1_b1.png` | Output screenshot for A = 1, B = 1 |
+
+---
 
 ## Input and Output Signals
 
@@ -51,49 +59,76 @@ The following logic gates are implemented in this project:
 | `xor_out` | Output | Output of XOR gate |
 | `xnor_out` | Output | Output of XNOR gate |
 
+---
+
 ## Truth Table
 
 | A | B | AND | OR | NOT A | NAND | NOR | XOR | XNOR |
-|---|---|-----|----|-------|------|-----|-----|------|
+|---|---|---|---|---|---|---|---|---|
 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 1 |
 | 0 | 1 | 0 | 1 | 1 | 1 | 0 | 1 | 0 |
 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 1 |
 
-## Simulation / Logic Output Screenshots
+---
 
-The circuit was tested for all possible input combinations of `a` and `b`.
+## Simulation Screenshots
 
-### Input: A = 0, B = 0
+The design was tested using all possible input combinations of `A` and `B`.
+
+### Input Combination: A = 0, B = 0
 
 ![Logic Gates A0 B0](logic_gates_a0_b0.png)
 
-### Input: A = 0, B = 1
+---
+
+### Input Combination: A = 0, B = 1
 
 ![Logic Gates A0 B1](logic_gates_a0_b1.png)
 
-### Input: A = 1, B = 0
+---
+
+### Input Combination: A = 1, B = 0
 
 ![Logic Gates A1 B0](logic_gates_a1_b0.png)
 
-### Input: A = 1, B = 1
+---
+
+### Input Combination: A = 1, B = 1
 
 ![Logic Gates A1 B1](logic_gates_a1_b1.png)
+
+---
 
 ## Result
 
 The basic logic gates were successfully implemented using Verilog HDL.  
-The outputs were checked for all input combinations, and the results matched the expected truth table.
+The outputs were checked for all possible input combinations, and the results matched the expected truth table.
+
+---
 
 ## Learning Outcome
 
 From this project, I learned:
 
-- How to write a basic Verilog module
-- How to use input and output signals
-- How basic logic gates work in hardware design
-- How to create a simple testbench
+- How to create a basic Verilog design
+- How input and output signals work
+- How basic logic gates behave
+- How to test different input combinations
 - How to document a hardware project on GitHub
+- How to organize project files professionally
+
+---
+
+## Future Improvements
+
+- Add waveform simulation screenshot
+- Add timing analysis report
+- Add resource utilization report
+- Implement the design on an FPGA board
+- Create separate modules for each logic gate
+
+---
 
 ## Author
 
